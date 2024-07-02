@@ -13,6 +13,8 @@
 // export default config;
 import adapter from "@sveltejs/adapter-static";
 
+const dev = process.argv.includes('dev');
+
 export default {
   kit: {
     adapter: adapter({
@@ -20,7 +22,7 @@ export default {
     }),
   },
   paths: {
-    base: process.env.NODE_ENV === 'production' ? '/carbon-violence' : ''
+    base: dev ? '' : process.env.BASE_PATH,
   },
 };
 
