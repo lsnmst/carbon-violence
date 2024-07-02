@@ -18,11 +18,8 @@ const dev = process.argv.includes('dev');
 export default {
   kit: {
     adapter: adapter({
-      fallback: "200.html",
+      fallback: "404.html",
     }),
-  },
-  paths: {
-    base: process.env.PUBLIC_BASE_PATH,
   },
 };
 
