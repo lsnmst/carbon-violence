@@ -19,4 +19,7 @@ export default {
       fallback: "200.html",
     }),
   },
+  paths: {
+    base: process.env.NODE_ENV === 'production' ? '/repo-name' : ''
+  }
 };
