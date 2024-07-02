@@ -8,7 +8,7 @@ async function loadData(fetch) {
     return true;
   }
 
-  let response = await fetch("/data.json");
+  let response = await fetch("/carbon-violence/data.json");
   offsetData = await response.json();
 
   offsetData.forEach((p, i) => {
