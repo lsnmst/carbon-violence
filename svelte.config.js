@@ -24,11 +24,8 @@ const config = {
 		// paths: {
 		// 	base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		// }
-		// paths: {
-		// 	base: dev ? '' : '/carbon-violence',
-		// }
 		paths: {
-			base: '/carbon-violence',
+			base:dev ? '' : '/carbon-violence',
 		}
 	}
 };
