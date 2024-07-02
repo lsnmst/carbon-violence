@@ -1,7 +1,7 @@
 <script>
   import "./styles.css";
   import { page } from "$app/stores";
-  page.subscribe(() => {});
+  import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
   <a class="logo" href="/"><img src="/logo.gif" alt="Offset logo" />Offset Archive</a>
   <div class="subhead">A repository of carbon offset projects & sales</div>
   <nav>
-    <a href="/" class:active={$page.url.pathname === "/"}>Projects</a>
+    <a href="{base}/" class:active={$page.url.pathname === "/"}>Projects</a>
     <a href="/sales" class:active={$page.url.pathname === "/sales"}>Sales</a>
     <!-- <a -->
     <!--   href="/methodologies" -->
