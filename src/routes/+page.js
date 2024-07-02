@@ -3,12 +3,13 @@ let loaded = false;
 const methodologies = {};
 const projectTypes = {};
 
+
 async function loadData(fetch) {
   if (loaded) {
     return true;
   }
 
-  let response = await fetch("/carbon-violence/data.json");
+  let response = await fetch("/data.json");
   offsetData = await response.json();
 
   offsetData.forEach((p, i) => {

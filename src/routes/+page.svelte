@@ -2,6 +2,7 @@
   import { tick } from "svelte";
   import Project from "$lib/Project.svelte";
   import { registryNames } from "$lib/registries.js";
+  
 
   export let data;
 
