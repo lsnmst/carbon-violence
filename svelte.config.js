@@ -20,8 +20,7 @@ export default {
     }),
   },
   paths: {
-    base: process.env.NODE_ENV === 'production' ? 'carbon-violence' : ''
-    
+    base: dev ? '' : '/carbon-violence',
   },
 };
 
