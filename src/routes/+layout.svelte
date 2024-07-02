@@ -1,6 +1,7 @@
 <script>
   import "./styles.css";
   import { page } from "$app/stores";
+  page.subscribe(() => {});
 </script>
 
 <svelte:head>
