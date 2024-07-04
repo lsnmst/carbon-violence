@@ -1,6 +1,7 @@
 let offsetData;
 let loaded = false;
 const methodologies = {};
+const abuses = {};
 const projectTypes = {};
 import { base } from '$app/paths';
 
@@ -17,13 +18,25 @@ async function loadData(fetch) {
 
     if (!p.name) p.name = "No Name";
     if (!p.description) p.description = "No Description";
+    if (!p.abuse_descr) p.abuse_descr = "No Casualties reported";
+    if (!p.abuseuno_id) p.abuseuno_id = "-";
+    if (!p.abuseuno_url) p.abuseuno_url = null;
 
+
+    const pAbuses = p.abuses
+      ? p.abuses.split(";").map((m) => m.trim())
+      : ["Unknown"];
     const pMethodologies = p.methodology
       ? p.methodology.split(";").map((m) => m.trim())
       : ["Unknown"];
     const pTypes = p.project_type
       ? p.project_type.split(";").map((m) => m.trim())
       : ["Unknown"];
+
+      
+    pAbuses.forEach((w) => {
+      abuses[w] = abuses[w] ? abuses[w] + 1 : 1;
+    });
 
     pMethodologies.forEach((m) => {
       methodologies[m] = methodologies[m] ? methodologies[m] + 1 : 1;
@@ -32,6 +45,7 @@ async function loadData(fetch) {
     pTypes.forEach((t) => {
       projectTypes[t] = projectTypes[t] ? projectTypes[t] + 1 : 1;
     });
+
   });
   loaded = true;
 }
@@ -54,6 +68,9 @@ export async function load({ url, fetch }) {
   let projectTypeFilter = url.searchParams.get("projectType") || null;
 
   let registryFilter = url.searchParams.get("registry") || null;
+
+  let abusesFilter = url.searchParams.get("abuses") || null;
+
 
   let q = url.searchParams.get("q") || "";
 
@@ -93,6 +110,11 @@ export async function load({ url, fetch }) {
       if (registryFilter === null) return true;
 
       return p.registry == registryFilter;
+    })
+    .filter((p) => {
+      if (abusesFilter === null) return true;
+
+      return p.abuses == abusesFilter;
     });
 
   const offsetsSlice = offsets.slice(start, start + count);
@@ -107,7 +129,9 @@ export async function load({ url, fetch }) {
     methodologyFilter,
     projectTypeFilter,
     registryFilter,
+    abusesFilter,
     methodologies,
+    abuses,
     projectTypes,
     sortOrder,
   };

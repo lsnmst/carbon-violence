@@ -1,5 +1,6 @@
 <script>
   import { registryNames } from "$lib/registries.js";
+  import { abuseNames } from "$lib/registries.js";
   export let offset;
   export let q;
 
@@ -55,11 +56,27 @@
         ></span
       >
     </div>
+
+    <div class="item">
+      <span class="label">Casualties:</span>
+      <span class="value">{offset.abuses}</span
+      >
+    </div>
   </div>
 
   <div class="body">
     <h3>{@html highlight(offset.name, q)}</h3>
     <div class="desc">{@html highlight(offset.description, q)}</div>
+    <div class="casu">{@html highlight(offset.abuse_descr, q)}</div>
+
+    <div class="metacasu">
+      <div style="margin-left: 0.3rem;" class="">
+        <span class="valuecasu"
+          >Documents:<br /><a href={offset.abuseuno_url} target="_blank">{offset.abuseuno_id}</a
+          ></span
+        >
+      </div>
+    </div>
   </div>
 </div>
 
@@ -79,6 +96,14 @@
     font-size: 0.8rem;
   }
 
+  .metacasu {
+    width: 100%;
+    margin-top: 1.3rem;
+    font-size: 0.9rem;
+    color: rgb(204, 11, 11);
+  }
+
+
   .body {
     width: 70%;
   }
@@ -86,6 +111,10 @@
   .meta {
     text-align: right;
     padding-right: 1rem;
+  }
+
+  .valuecasu a {
+    color: rgb(204, 11, 11);
   }
 
   .label {
@@ -100,6 +129,13 @@
 
   .desc {
     margin-top: 0.1rem;
+  }
+
+  .casu {
+    margin-top: 0.8rem;
+    margin-left: 0.3rem;
+    color: rgb(204, 11, 11);
+    font-weight: 500;
   }
 
   .project {

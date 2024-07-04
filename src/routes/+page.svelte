@@ -2,8 +2,8 @@
   import { tick } from "svelte";
   import Project from "$lib/Project.svelte";
   import { registryNames } from "$lib/registries.js";
-  import { base } from '$app/paths';
-
+  import { abuseNames } from "$lib/registries.js";
+  import { base } from "$app/paths";
 
   export let data;
 
@@ -16,8 +16,10 @@
   let methodologyFilter = data.methodologyFilter;
   let projectTypeFilter = data.projectTypeFilter;
   let registryFilter = data.registryFilter;
+  let abusesFilter = data.abusesFilter;
   let sortOrder = data.sortOrder;
   let methodologies = data.methodologies;
+  let abuses = data.abuses;
   let projectTypes = data.projectTypes;
   let form;
   let loading = false;
@@ -45,6 +47,7 @@
     projectTypeFilter = null;
     methodologyFilter = null;
     registryFilter = null;
+    abusesFilter = "Reported";
     sortKey = "total_credits";
     sortOrder = "desc";
   }
@@ -102,6 +105,25 @@
 
     <div class="all-filters" style="display: {showFilters ? 'block' : 'none'}">
       <div class="filter">
+
+        <div class="filter" style="border: 3px var(--theme1) solid;">
+          <label for="abs">Casualties</label>
+          <select
+            name="abuses"
+            id="abs"
+            bind:value={abusesFilter}
+            class="long-select"
+            on:change={subForm}
+          >
+            <option value={null}>-</option>
+            {#each Object.keys(abuses).sort() as w}
+              <option value={w}>
+                {w} ({abuses[w]})
+              </option>
+            {/each}
+          </select>
+        </div>
+
         <label for="sort">Sort by</label>
         <select name="sort" id="sort" bind:value={sortKey} on:change={subForm}>
           {#each sortKeys as s}
@@ -196,7 +218,7 @@
             <button on:click={prevPage}>Prev</button>
           {/if}
           {#if start + count < total}
-            <button on:click={nextPage} >Next</button>
+            <button on:click={nextPage}>Next</button>
           {/if}
         </div>
       </div>
@@ -251,7 +273,9 @@
     background-color: var(--theme1);
   }
   .reset {
-    background-color: #eee;
+    background-color: var(--theme1);
+    color: #fff;
+    cursor: pointer; 
   }
 
   .pagination {

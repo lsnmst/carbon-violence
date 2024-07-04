@@ -4,3 +4,8 @@ export const registryNames = {
   car: "Climate Action Reserve",
   american_carbon: "American Carbon Registry",
 };
+
+export const abuseNames = {
+  no_recorded: "No reported",
+  recorded: "Reported",
+};
