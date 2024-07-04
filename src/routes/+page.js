@@ -2,14 +2,14 @@ let offsetData;
 let loaded = false;
 const methodologies = {};
 const projectTypes = {};
-
+import { base } from '$app/paths';
 
 async function loadData(fetch) {
   if (loaded) {
     return true;
   }
 
-  let response = await fetch("/data.json");
+  let response = await fetch(`${base}/data.json`);
   offsetData = await response.json();
 
   offsetData.forEach((p, i) => {
