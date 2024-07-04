@@ -2,7 +2,8 @@
   import { tick } from "svelte";
   import Project from "$lib/Project.svelte";
   import { registryNames } from "$lib/registries.js";
-  
+  import { base } from '$app/paths';
+
 
   export let data;
 
@@ -88,7 +89,7 @@
       />
       <div class="toggle-filters-holder">
         <a
-          href="#"
+          href="{base}/#"
           class="toggle-filters"
           on:click|preventDefault={() => {
             showFilters = !showFilters;
@@ -195,7 +196,7 @@
             <button on:click={prevPage}>Prev</button>
           {/if}
           {#if start + count < total}
-            <button on:click={nextPage}>Next</button>
+            <button on:click={nextPage} >Next</button>
           {/if}
         </div>
       </div>

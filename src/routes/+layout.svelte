@@ -9,11 +9,12 @@
 </svelte:head>
 
 <header>
-  <a class="logo" href="/"><img src="/logo.gif" alt="Offset logo" />Offset Archive</a>
-  <div class="subhead">A repository of carbon offset projects & sales</div>
+  <a class="logo" href="{base}/"><img src="{base}/logo.gif" alt="Offset logo" />Carbon Violence</a>
+  <div class="subhead">A repository of carbon offsetting's casualties <del>projects</del></div>
   <nav>
-    <a href="{base}/" class:active={$page.url.pathname === "/"}>Projects</a>
-    <a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>Sales</a>
+    <a href="{base}/" class:active={$page.url.pathname === "/"}>casualties</a>
+    <!--<a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>Sales</a> -->
+
     <!-- <a -->
     <!--   href="/methodologies" -->
     <!--   class:active={$page.url.pathname === "/methodologies"}>Methodologies</a -->

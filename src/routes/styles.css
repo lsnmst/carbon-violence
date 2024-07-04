@@ -5,7 +5,7 @@
 :root {
   margin: 0;
   /* --theme1: #00ff37; */
-  --theme1: #aae6aa;
+  --theme1: rgb(204, 11, 11);
   --fg: #000000;
   --bg: #ffffff;
 
@@ -50,6 +50,11 @@ a {
   color: var(--fg);
 }
 
+del {
+  text-decoration-color: rgb(204, 11, 11);
+  text-decoration-thickness: 3px;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -90,11 +95,13 @@ header nav a {
 header nav a {
   padding: 5px;
   margin: 5px;
+  border: 3px solid transparent;
 }
 
 header nav a:hover,
 header nav a.active {
-  background-color: var(--theme1);
+  /* background-color: var(--theme1); */
+  border: 3px var(--theme1) solid;
 }
 
 article {
