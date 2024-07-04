@@ -65,7 +65,7 @@
 </script>
 
 <div class="project-container">
-  <form class="filters" method="GET" action="/" bind:this={form}>
+  <form class="filters" method="GET" action="{base}/" bind:this={form}>
     <div class="help">
       Offset project information has been scraped from the four major carbon
       registries. Each entry describes a project that has been approved as an
@@ -89,7 +89,7 @@
       />
       <div class="toggle-filters-holder">
         <a
-          href="{base}/#"
+          href="#"
           class="toggle-filters"
           on:click|preventDefault={() => {
             showFilters = !showFilters;
