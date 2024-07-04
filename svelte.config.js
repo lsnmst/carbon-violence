@@ -19,6 +19,10 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	kit: {
 		adapter: adapter({
+			pages: "build",
+            assets: "build",
+            precompress: false,
+            trailingSlash: 'always',
 			fallback: '404.html',
 		}),
 		// paths: {
