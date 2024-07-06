@@ -5,12 +5,12 @@
 </script>
 
 <svelte:head>
-  <title>Offset Archive</title>
+  <title>Carbon Violence</title>
 </svelte:head>
 
 <header>
   <a class="logo" href="{base}/"><img src="{base}/logo.gif" alt="Offset logo" />Carbon Violence</a>
-  <div class="subhead">A repository of carbon offsetting's casualties <del>projects</del></div>
+  <div class="subhead">A repository of carbon <span style="color: var(--theme1);">offsetting's casualties</span></div>
   <nav>
     <a href="{base}/" class:active={$page.url.pathname === "/"}>casualties</a>
     <!--<a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>Sales</a> -->

@@ -18,7 +18,7 @@ async function loadData(fetch) {
 
     if (!p.name) p.name = "No Name";
     if (!p.description) p.description = "No Description";
-    if (!p.abuse_descr) p.abuse_descr = "No Casualties reported";
+    if (!p.abuse_descr) p.abuse_descr = "No Casualties Reported";
     if (!p.abuseuno_id) p.abuseuno_id = "-";
     if (!p.abuseuno_url) p.abuseuno_url = null;
 

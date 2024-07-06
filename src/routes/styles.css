@@ -101,7 +101,7 @@ header nav a {
 header nav a:hover,
 header nav a.active {
   /* background-color: var(--theme1); */
-  border: 3px var(--theme1) solid;
+  border: 1px var(--theme1) solid;
 }
 
 article {

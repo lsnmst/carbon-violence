@@ -106,24 +106,6 @@
     <div class="all-filters" style="display: {showFilters ? 'block' : 'none'}">
       <div class="filter">
 
-        <div class="filter" style="border: 3px var(--theme1) solid;">
-          <label for="abs">Casualties</label>
-          <select
-            name="abuses"
-            id="abs"
-            bind:value={abusesFilter}
-            class="long-select"
-            on:change={subForm}
-          >
-            <option value={null}>-</option>
-            {#each Object.keys(abuses).sort() as w}
-              <option value={w}>
-                {w} ({abuses[w]})
-              </option>
-            {/each}
-          </select>
-        </div>
-
         <label for="sort">Sort by</label>
         <select name="sort" id="sort" bind:value={sortKey} on:change={subForm}>
           {#each sortKeys as s}
@@ -136,6 +118,24 @@
         <select name="sortOrder" bind:value={sortOrder} on:change={subForm}>
           <option value="asc">Ascending</option>
           <option value="desc">Descending</option>
+        </select>
+      </div>
+
+      <div class="filter" style="border: 1px var(--theme1) solid;">
+        <label for="abs">Casualties</label>
+        <select
+          name="abuses"
+          id="abs"
+          bind:value={abusesFilter}
+          class="long-select"
+          on:change={subForm}
+        >
+          <option value={null}>-</option>
+          {#each Object.keys(abuses).sort() as w}
+            <option value={w}>
+              {w} ({abuses[w]})
+            </option>
+          {/each}
         </select>
       </div>
 
@@ -273,8 +273,7 @@
     background-color: var(--theme1);
   }
   .reset {
-    background-color: var(--theme1);
-    color: #fff;
+    border: 1px var(--theme1) solid;
     cursor: pointer; 
   }
 
