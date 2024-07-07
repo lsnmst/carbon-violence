@@ -70,9 +70,17 @@
 <div class="project-container">
   <form class="filters" method="GET" action="{base}/" bind:this={form}>
     <div class="help">
-      Offset project information has been scraped from the four major carbon
+      <!--       Information from the <a href="https://offsetarchive.labr.io/">Offset project</a> has been scraped from the four major carbon
       registries. Each entry describes a project that has been approved as an
-      offset by one of these registries.
+      offset by one of these registries. 
+ -->
+      <span
+        >Carbon Violence is an initiative intended to connect carbon offset
+        projects cloned from the <a href="https://offsetarchive.labr.io/"
+          >Offset Archive</a
+        > to (all kinds of) violence occurrences: physical, economic, psychological,
+        epistemic violence whose local communities have been identified as casualties.</span
+      >
     </div>
     <div class="filter">
       <input
@@ -105,7 +113,6 @@
 
     <div class="all-filters" style="display: {showFilters ? 'block' : 'none'}">
       <div class="filter">
-
         <label for="sort">Sort by</label>
         <select name="sort" id="sort" bind:value={sortKey} on:change={subForm}>
           {#each sortKeys as s}
@@ -121,8 +128,8 @@
         </select>
       </div>
 
-      <div class="filter" style="border: 1px var(--theme1) solid;">
-        <label for="abs">Casualties</label>
+      <div class="filter">
+        <label for="abs" style="color: var(--theme1)">Casualties</label>
         <select
           name="abuses"
           id="abs"
@@ -157,7 +164,7 @@
         </select>
       </div>
 
-      <div class="filter">
+      <!--       <div class="filter">
         <label for="meth">Methodologies</label>
         <select
           name="methodology"
@@ -174,6 +181,7 @@
           {/each}
         </select>
       </div>
+ -->
 
       <div class="filter">
         <label for="ptype">Project Type</label>
@@ -274,7 +282,7 @@
   }
   .reset {
     border: 1px var(--theme1) solid;
-    cursor: pointer; 
+    cursor: pointer;
   }
 
   .pagination {

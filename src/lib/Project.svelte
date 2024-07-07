@@ -57,12 +57,12 @@
       >
     </div>
 
-    <div class="item">
+<!--     <div class="item">
       <span class="label">Casualties:</span>
       <span class="value">{offset.abuses}</span
       >
     </div>
-  </div>
+ -->  </div>
 
   <div class="body">
     <h3>{@html highlight(offset.name, q)}</h3>
