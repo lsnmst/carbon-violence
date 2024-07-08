@@ -57,26 +57,39 @@
       >
     </div>
 
-<!--     <div class="item">
+    <!--     <div class="item">
       <span class="label">Casualties:</span>
       <span class="value">{offset.abuses}</span
       >
     </div>
- -->  </div>
+ -->
+  </div>
 
   <div class="body">
     <h3>{@html highlight(offset.name, q)}</h3>
     <div class="desc">{@html highlight(offset.description, q)}</div>
-    <div class="casu">{@html highlight(offset.abuse_descr, q)}</div>
 
-    <div class="metacasu">
-      <div style="margin-left: 0.3rem;" class="">
-        <span class="valuecasu"
-          >Documents:<br /><a href={offset.abuseuno_url} target="_blank">{offset.abuseuno_id}</a
-          ></span
-        >
+    <div class="" style="padding:0.5em; border: 1px var(--theme1) solid; margin-top:0.8rem">
+      <div class="">{@html highlight(offset.abuse_descr, q)}</div>
+
+      <div class="metacasu">
+        <div class="">
+          <span class="valuecasu"
+            >Documents:<br /><a href={offset.abuseuno_url} target="_blank"
+              >{offset.abuseuno_id}</a
+            ></span
+          >
+        </div>
+        <div class="">
+          <span class="valuecasu"
+            ><a href={offset.abusedue_url} target="_blank"
+              >{offset.abusedue_id}</a
+            ></span
+          >
+        </div>
       </div>
     </div>
+
   </div>
 </div>
 
@@ -100,9 +113,7 @@
     width: 100%;
     margin-top: 1.3rem;
     font-size: 0.9rem;
-    color: rgb(204, 11, 11);
   }
-
 
   .body {
     width: 70%;
@@ -114,7 +125,7 @@
   }
 
   .valuecasu a {
-    color: rgb(204, 11, 11);
+    /* color: rgb(204, 11, 11); */
   }
 
   .label {
@@ -129,13 +140,6 @@
 
   .desc {
     margin-top: 0.1rem;
-  }
-
-  .casu {
-    margin-top: 0.8rem;
-    margin-left: 0.3rem;
-    color: rgb(204, 11, 11);
-    font-weight: 500;
   }
 
   .project {
