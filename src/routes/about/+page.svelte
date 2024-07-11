@@ -32,13 +32,21 @@
 
   <p style="color: var(--theme1);">
     The Carbon Violence archive is an initiative intended to collect and make
-    visible violent<sup> 2</sup> incidents occurring to local communities living in
-    areas where carbon offset projects are implemented, for which project developers
+    visible violent<sup> 2</sup> incidents occurring to local communities living
+    in areas where carbon offset projects are implemented, for which project developers
     and subsidiaries are held directly accountable and affected communities identified
     as casualties. Every contribution is welcome.
   </p>
 
-  <p style="font-size: 0.85em;">
+  <p style="color: var(--theme1);">
+    Add your contribution to the Carbon Violence archive by filling in a <a
+      target="”_blank”"
+      href="https://ee-eu.kobotoolbox.org/x/YzOtiWsK">short form</a
+    > <br />(currently only in English)
+  </p>
+
+  <hr style="width: 70%; margin-left:0; margin-top:1rem; " />
+  <p style="font-size: 0.85em; max-width:70%">
     <sup>1</sup> Offset Archive' database has been scraped and designed by Sam
     Lavigne. Code for this project can be found on
     <a href="https://github.com/antiboredom/offset-archive">GitHub</a>. The
@@ -47,7 +55,8 @@
     <a href="https://tegabrain.com">Tega Brain</a>.
   </p>
 
-  <p style="font-size: 0.85em; color: var(--theme1);">
-    <sup>2</sup> (Physical, sexual, socio-economic, psychological, online or tech-facilitated, epistemic) violence.
+  <p style="font-size: 0.85em; color: var(--theme1); max-width:70%">
+    <sup>2</sup> (Physical, sexual, socio-economic, psychological, online or tech-facilitated,
+    epistemic) violence.
   </p>
 </article>
