@@ -3,6 +3,7 @@ export const registryNames = {
   verra: "Verra",
   car: "Climate Action Reserve",
   american_carbon: "American Carbon Registry",
+  cercabono: "Cer Carbono",
 };
 
 export const abuseNames = {
