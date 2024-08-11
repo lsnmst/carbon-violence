@@ -16,9 +16,9 @@ async function loadData(fetch) {
   offsetData.forEach((p, i) => {
     p.id = i;
 
-    if (!p.name) p.name = "No Name";
-    if (!p.description) p.description = "No Description";
-    if (!p.abuse_descr) p.abuse_descr = "No Casualties Reported";
+    if (!p.name) p.name = "No name";
+    if (!p.description) p.description = "No description";
+    if (!p.abuse_descr) p.abuse_descr = 'No casualties reported to the archive. If you want to report an occourence, please follow the <a href="https://ee-eu.kobotoolbox.org/x/YzOtiWsK"> link</a>';
     if (!p.abuseuno_id) p.abuseuno_id = "-";
     if (!p.abuseuno_url) p.abuseuno_url = null;
 
