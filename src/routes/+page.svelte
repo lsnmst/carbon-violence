@@ -74,10 +74,16 @@
       registries. Each entry describes a project that has been approved as an
       offset by one of these registries. 
  -->
-      <span
+      <!--       <span
         >Carbon Violence is an initiative to link carbon offset projects cloned
         from the <a href="https://offsetarchive.labr.io/">Offset Archive</a> to occurrences
         of (physical, economic, psychological, epistemic) violence whose local communities
+        living in the project areas have been identified as casualties</span
+      >
+ -->
+      <span
+        >Carbon Violence is an initiative to link carbon offset projects to occurrences
+        of physical, economic, psychological, epistemic violence whose local communities
         living in the project areas have been identified as casualties</span
       >
     </div>
