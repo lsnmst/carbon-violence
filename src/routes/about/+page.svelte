@@ -1,14 +1,31 @@
 <article>
   <h2>About</h2>
 
+  <!-- <p style="color: var(--theme1);"> -->
   <p>
-    The Offset Archive<sup> 1</sup> is a searchable database of every project
-    listed in the four major carbon registories:
+    The Carbon Violence archive exposes the violent incidents <sup
+      style="font-size: 10px;"
+    >
+      1</sup
+    > that occur to individuals and communities living in areas where carbon offsetting
+    projects are implemented, making accountable project developers, subsidiaries,
+    investors, funders, validation and verification bodies, brokers, corporations
+    purchasing credits.
+  </p>
+
+  <p>
+    The idea emerged following the publication of the Offset Archive <sup
+      style="font-size: 10px;"
+    >
+      2</sup
+    >, a searchable database of every project listed in the four major carbon
+    registories:
     <a href="https://acrcarbon.org/">American Carbon Registry (ACR)</a>,
     <a href="https://www.climateactionreserve.org/"
       >Climate Action Reserve (CAR)</a
     >, <a href="https://www.goldstandard.org/">Gold Standard</a>, and
-    <a href="https://verra.org/">Verra</a>. These platforms make up the majority
+    <a href="https://verra.org/">Verra</a>
+    <sup style="font-size: 10px;"> 3</sup>. These platforms make up the majority
     of the voluntary carbon market and record lists of various carbon offsetting
     projects, as well as the different methodologies that underlie them. The
     voluntary market is one of two distinct domains for carbon offsetting today
@@ -30,24 +47,25 @@
   </p>
  -->
 
-  <p style="color: var(--theme1);">
-    The Carbon Violence archive is an initiative intended to collect and make
-    visible violent<sup> 2</sup> incidents occurring to local communities living
-    in areas where carbon offset projects are implemented, for which project developers
-    and subsidiaries are held directly accountable and affected communities identified
-    as casualties. Every contribution is welcome.
-  </p>
+  <hr style="width: 100%; margin-left:0; margin-top:1rem; " />
 
-  <p style="color: var(--theme1);">
-    Add your contribution to the Carbon Violence archive by filling in a <a
+  <p style="margin-bottom:4rem; ">
+    Every contribution is welcome. Add your contribution to the Carbon Violence
+    archive by filling in a <a
       target="”_blank”"
       href="https://ee-eu.kobotoolbox.org/x/YzOtiWsK">short form</a
-    > <br />(currently only in English)
+    > (currently only in English)
   </p>
 
   <hr style="width: 70%; margin-left:0; margin-top:1rem; " />
+
   <p style="font-size: 0.85em; max-width:70%">
-    <sup>1</sup> Offset Archive' database has been scraped and designed by Sam
+    <sup>1</sup> Violence is approached holistically by including, physical, sexual,
+    socio-economic, psychological, online or tech-facilitated, epistemic violence.
+  </p>
+
+  <p style="font-size: 0.85em; max-width:70%;">
+    <sup>2</sup> Offset Archive' database has been scraped and designed by Sam
     Lavigne. Code for this project can be found on
     <a href="https://github.com/antiboredom/offset-archive">GitHub</a>. The
     Offset Archive is part of a collaborative artistic research project
@@ -55,8 +73,9 @@
     <a href="https://tegabrain.com">Tega Brain</a>.
   </p>
 
-  <p style="font-size: 0.85em; color: var(--theme1); max-width:70%">
-    <sup>2</sup> (Physical, sexual, socio-economic, psychological, online or tech-facilitated,
-    epistemic) violence.
+  <p style="font-size: 0.85em; max-width:70%; margin-bottom:4rem">
+    <sup>3</sup> The data collected by the registers are updated to 20 June 2024.
+    The archive also includes records collected from the public registries of Cer
+    Carbono, COLCX and Global Carbon Trace.
   </p>
 </article>
