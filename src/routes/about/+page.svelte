@@ -74,12 +74,15 @@
   </p>
 
   <p style="font-size: 0.85em; max-width:70%;">
-    <sup>3</sup> The data collected by the registers are updated to 20 June 2024.
-    The archive also includes records collected from the public registries of Cer
-    Carbono, COLCX and Global Carbon Trace.
+    <sup>3</sup> The data collected by the registers are updated to 20th June 2024.
+    The archive also includes specific records collected from the public registries
+    of Cer Carbono, Plan Vivo, COLCX and Global Carbon Trace, whose occurences are
+    reported.
   </p>
 
-  <p style="font-size: 0.85em; max-width:70%; margin-bottom:4rem; margin-bottom:4rem">
+  <p
+    style="font-size: 0.85em; max-width:70%; margin-bottom:4rem; margin-bottom:4rem"
+  >
     <sup>4</sup> The Carbon Violence archive is currently curated by
     <a target="_blank" href="https://alessandro.vado.li">Alessandro</a>. Last
     update, 20th September 2024
