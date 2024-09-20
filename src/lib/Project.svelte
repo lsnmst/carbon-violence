@@ -69,7 +69,7 @@
     <h3>{@html highlight(offset.name, q)}</h3>
     <div class="desc">{@html highlight(offset.description, q)}</div>
 
-    <div class="" style="padding:0.5em; border: 1px var(--theme1) solid; margin-top:0.8rem">
+    <div class="" style="padding:0.5em; border: 2px var(--theme1) dotted; margin-top:0.8rem">
       <div class="">{@html highlight(offset.abuse_descr, q)}</div>
 
       <div class="metacasu">

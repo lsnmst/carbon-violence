@@ -75,7 +75,7 @@
 
   <p style="font-size: 0.85em; max-width:70%;">
     <sup>3</sup> The data collected by the registers are updated to 20th June 2024.
-    The archive also includes specific records collected from the public registries
+    The archive includes specific records collected from the public registries
     of Cer Carbono, Plan Vivo, COLCX and Global Carbon Trace, whose occurences are
     reported.
   </p>

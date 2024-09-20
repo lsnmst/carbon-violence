@@ -82,9 +82,9 @@
       >
  -->
       <span
-        >Carbon Violence is an initiative to link carbon offset projects to occurrences
-        of physical, economic, psychological, epistemic violence whose local communities
-        living in the project areas have been identified as casualties</span
+        >Carbon Violence exposes occurrences of physical, economic,
+        psychological and epistemic violence in the areas where carbon
+        offsetting projects are implemented</span
       >
     </div>
     <div class="filter">
@@ -134,7 +134,7 @@
       </div>
 
       <div class="filter">
-        <label for="abs" style="color: var(--theme1)">Casualties</label>
+        <label for="abs">Casualties</label>
         <select
           name="abuses"
           id="abs"
@@ -239,6 +239,23 @@
         {#each offsetsSlice as offset (offset.id)}
           <Project {offset} {q} />
         {/each}
+      </div>
+      <div class="pagination">
+        <div class="page-counts">
+          {#if total > 0}
+            {start + 1} to {start + Math.min(count, total)} of {total}
+          {:else}
+            No results found.
+          {/if}
+        </div>
+        <div class="page-buttons">
+          {#if start > 0}
+            <button on:click={prevPage}>Prev</button>
+          {/if}
+          {#if start + count < total}
+            <button on:click={nextPage}>Next</button>
+          {/if}
+        </div>
       </div>
     {/if}
   </div>
