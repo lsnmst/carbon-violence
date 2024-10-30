@@ -5,7 +5,8 @@ export const registryNames = {
   american_carbon: "American Carbon Registry",
   cercabono: "Cer Carbono",
   colcx: "COLCX",
-  gctrance:"Global CarbonTrace"
+  gctrance:"Global CarbonTrace",
+  markit: "Markit"
 };
 
 export const abuseNames = {
