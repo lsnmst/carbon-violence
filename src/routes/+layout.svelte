@@ -13,12 +13,14 @@
   <div class="subhead">A repository of carbon <span style=" ">offsetting's casualties</span></div>
   <nav>
     <a href="{base}/" class:active={$page.url.pathname === "/"}>casualties</a>
+
     <!--<a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>Sales</a> -->
 
     <!-- <a -->
     <!--   href="/methodologies" -->
     <!--   class:active={$page.url.pathname === "/methodologies"}>Methodologies</a -->
     <!-- > -->
+    
     <a href="{base}/about" class:active={$page.url.pathname === "/about"}>About</a>
   </nav>
 </header>
