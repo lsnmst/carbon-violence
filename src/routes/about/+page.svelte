@@ -85,6 +85,6 @@
   >
     <sup>4</sup> The Carbon Violence archive is currently curated by
     <a target="_blank" href="https://alessandro.vado.li">Alessandro</a>. Last
-    update, 30th October 2024
+    update, 25th November 2024
   </p>
 </article>
