@@ -5,10 +5,11 @@ let headers;
 let values;
 let _sales;
 let loaded = false;
+import { base } from '$app/paths';
 
 async function loadData(fetch) {
   if (!loaded) {
-    let response = await fetch("/sales.json");
+    let response = await fetch(`${base}/sales.json`);
     salesData = await response.json();
     headers = salesData.headers;
     values = salesData.values;
