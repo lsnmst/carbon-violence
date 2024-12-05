@@ -1,5 +1,6 @@
 <script>
   import { tick } from "svelte";
+  import { base } from "$app/paths";
   export let data;
 
   let q = data.q;
@@ -69,7 +70,7 @@
 </script>
 
 <div class="project-container">
-  <form class="filters" method="GET" action="/sales" bind:this={form}>
+  <form class="filters" method="GET" action="{base}/sales" bind:this={form}>
     <div class="help">
       Offset sales data has been sourced from The Berkeley Carbon Trading
       Project. This dataset consists of the name of every organisation or
