@@ -21,6 +21,7 @@
 
   const sortKeys = [
     { key: "notes", text: "Buyer Information" },
+    { key: "beneficiary", text: "Details" },
     { key: "total", text: "Total Carbon Credits" },
     { key: "date", text: "Date" },
   ];
@@ -72,8 +73,9 @@
     <div class="help">
       Offset sales data has been sourced from The Berkeley Carbon Trading
       Project. This dataset consists of the name of every organisation or
-      individual who has bought an offset, date of the sale, quantity of offsets
-      purchased and from which project.
+      individual who has bought an offset from Verra registry, date of the sale,
+      quantity of offsets purchased and from which project. <br /><br />Last
+      update 4 December 2024
     </div>
     <div class="filter">
       <input
@@ -141,6 +143,7 @@
         <th width="10%">Carbon Credits</th>
         <th width="10%">Date</th>
         <th>Buyer Information</th>
+        <th>Details</th>
       </tr>
       {#each salesSlice as sale}
         <tr>
@@ -151,6 +154,7 @@
           <!-- <td>{REGS[sale.type]}</td> -->
           <td>{sale.total.toLocaleString()}</td>
           <td>{sale.date}</td>
+          <td>{sale.beneficiary}</td>
           <td>{sale.notes}</td>
         </tr>
       {/each}

@@ -14,7 +14,7 @@
   <nav>
     <a href="{base}/" class:active={$page.url.pathname === "/"}>casualties</a>
 
-    <!--<a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>Sales</a> -->
+    <a href="{base}/sales" class:active={$page.url.pathname === "/sales"}>bloody credits</a>
 
     <!-- <a -->
     <!--   href="/methodologies" -->

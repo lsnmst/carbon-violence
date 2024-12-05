@@ -17,9 +17,10 @@ async function loadData(fetch) {
       return {
         id: v[0],
         date: v[1],
-        notes: v[2] + "",
-        total: v[3],
-        type: v[4],
+        beneficiary: v[2] + "",
+        notes: v[3] + "",
+        total: v[4],
+        type: v[5],
       };
     });
     loaded = true;
