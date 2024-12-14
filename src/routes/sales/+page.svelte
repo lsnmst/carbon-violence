@@ -160,6 +160,23 @@
         </tr>
       {/each}
     </table>
+    <div class="pagination">
+      <div class="page-counts">
+        {#if total > 0}
+          {start + 1} to {start + Math.min(count, total)} of {total}
+        {:else}
+          No results found.
+        {/if}
+      </div>
+      <div class="page-buttons">
+        {#if start > 0}
+          <button on:click={prevPage}>Prev</button>
+        {/if}
+        {#if start + count < total}
+          <button on:click={nextPage}>Next</button>
+        {/if}
+      </div>
+    </div>
   </div>
 </div>
 
@@ -217,7 +234,8 @@
     background-color: var(--theme1);
   }
   .reset {
-    background-color: #eee;
+    border: 1px var(--theme1) solid;
+    cursor: pointer;
   }
 
   .pagination {

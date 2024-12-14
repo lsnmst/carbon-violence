@@ -3,6 +3,7 @@
   import Project from "$lib/Project.svelte";
   import { registryNames } from "$lib/registries.js";
   import { abuseNames } from "$lib/registries.js";
+  import { page } from "$app/stores";
   import { base } from "$app/paths";
 
   export let data;
@@ -84,8 +85,15 @@
       <span
         >Carbon Violence exposes occurrences of physical, economic,
         psychological and epistemic violence in the areas where carbon
-        offsetting projects are implemented</span
+        offsetting projects registered to the voluntary offset market are
+        implemented</span
       >
+      <span>
+        <br /><br /><a
+          href="{base}/about"
+          class:active={$page.url.pathname === "/about"}>Methodology..</a
+        >
+      </span>
     </div>
     <div class="filter">
       <input
