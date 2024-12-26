@@ -91,7 +91,7 @@
       <span>
         <br /><br /><a
           href="{base}/about"
-          class:active={$page.url.pathname === "/about"}>Methodology..</a
+          class:active={$page.url.pathname === "/about"}><i>Read more..</i></a
         >
       </span>
     </div>
@@ -153,7 +153,8 @@
           <option value={null}>-</option>
           {#each Object.keys(abuses).sort() as w}
             <option value={w}>
-              {w} ({abuses[w]})
+              <!-- {w} ({abuses[w]}) -->
+              {w}
             </option>
           {/each}
         </select>

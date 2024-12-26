@@ -108,7 +108,7 @@
   <p style="font-size: 0.85em; max-width:70%; margin-bottom:5rem">
     <sup>5</sup> The Carbon Violence archive is currently curated by
     <a target="_blank" href="https://alessandro.vado.li">Alessandro</a>. Last
-    update, 4th December 2024. Code for this project can be found on
+    update, 27th December 2024. Code for this project can be found on
     <a target="_blank" href="https://github.com/lsnmst/carbon-violence"
       >GitHub</a
     >.
