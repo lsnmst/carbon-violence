@@ -20,6 +20,8 @@
     <!--   href="/methodologies" -->
     <!--   class:active={$page.url.pathname === "/methodologies"}>Methodologies</a -->
     <!-- > -->
+
+    <a href="{base}/map" class:active={$page.url.pathname === "/map"}>Map</a>
     
     <a href="{base}/about" class:active={$page.url.pathname === "/about"}>About</a>
   </nav>
