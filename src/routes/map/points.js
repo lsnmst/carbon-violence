@@ -1372,6 +1372,41 @@ export const points = {
                 "type": "Point"
             },
             "id": 80
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Suruí Forest Carbon Project",
+                "area": 247000,
+                "ID": 1118,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/1118"
+            },
+            "geometry": {
+                "coordinates": [
+                    -61.455800269791055,
+                    -11.031290452314366
+                    
+                ],
+                "type": "Point"
+            },
+            "id": 81
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Forest Management to reduce deforestation and degradation in Shipibo Conibo and Cacataibo Indigenous communities of Ucayali region",
+                "area": 127004,
+                "ID": 1360,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/1360"
+            },
+            "geometry": {
+                "coordinates": [
+                    -74.34947117113316,
+                    -9.284435650028497
+                ],
+                "type": "Point"
+            },
+            "id": 82
         }
     ]
 };
