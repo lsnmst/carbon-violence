@@ -40,7 +40,7 @@
     q = "";
     start = 0;
     count = 50;
-    sortKey = "total";
+    sortKey = "date";
     sortOrder = "desc";
   }
 
@@ -77,7 +77,7 @@
       individual who has bought an offset from Verra registry, date of the sale,
       quantity of offsets purchased and from which project. <br /><br /><i
         >Berkeley Carbon Trading Project</i
-      > database, last version 4 December 2024
+      > database, version 1 June 2025
     </div>
     <div class="filter">
       <input

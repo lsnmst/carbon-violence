@@ -1407,6 +1407,23 @@ export const points = {
                 "type": "Point"
             },
             "id": 82
+        },
+                {
+            "type": "Feature",
+            "properties": {
+                "name": "Kajiado Rangelands Carbon Project",
+                "area": 1000000,
+                "ID": 4714,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/4714"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.78195050,
+                    -2.09807510
+                ],
+                "type": "Point"
+            },
+            "id": 83
         }
     ]
 };

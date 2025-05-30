@@ -4,6 +4,23 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Kajiado Rangelands Carbon Project",
+                "area": 1000000,
+                "ID": 4714,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/4714"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.78195050,
+                    -2.09807510
+                ],
+                "type": "Point"
+            },
+            "id": 81
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Katingan Peatland Restoration and Conservation Project",
                 "area": 14980,
                 "ID": 1477,

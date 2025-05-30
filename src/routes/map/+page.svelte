@@ -17,11 +17,11 @@
 <div class="map-container">
   <div class="land-project-container">
     <div class="help">
-      <div class="number">14,925,110</div>
+      <div class="number">15,925,110</div>
       <br />Total area (in hectares) occupied by projects where occurrences of
       physical, economic, psychological and epistemic violence have been
-      exposed.<br /><br />An area equivalent to: <b>Bangladesh</b><br /><br
-      /><br /><br /><br />Last update 27th February 2025
+      exposed.<br /><br />An area equivalent to: <b>Tunisia</b><br /><br
+      /><br /><br /><br />Last update 1st June 2025
     </div>
   </div>
   <div class="land-project-container">
