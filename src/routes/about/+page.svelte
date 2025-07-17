@@ -31,8 +31,7 @@
     >
       3</sup
     >
-    a searchable database of every project listed in the four major carbon
-    registories:
+    a searchable database of every project listed in the four major carbon registories:
     <a href="https://acrcarbon.org/">American Carbon Registry (ACR)</a>,
     <a href="https://www.climateactionreserve.org/"
       >Climate Action Reserve (CAR)</a
@@ -99,16 +98,17 @@
   </p>
 
   <p style="font-size: 0.85em; max-width:70%;">
-    <sup>4</sup> The data collected by the registers are updated to 20th June 2024.
+    <sup>4</sup
+    ><!-- The data collected by the registers are updated to 20th June 2024. -->
     The archive includes specific records collected from the public registries of
-    Cer Carbono, Plan Vivo (Markit), COLCX and Global Carbon Trace, whose occurences
+    Cer Carbono, Plan Vivo (Markit), COLCX, ART and Global Carbon Trace, whose occurences
     are reported.
   </p>
 
   <p style="font-size: 0.85em; max-width:70%; margin-bottom:5rem">
     <sup>5</sup> The Carbon Violence archive is currently curated by
     <a target="_blank" href="https://alessandro.vado.li">Alessandro</a>. Last
-    update, 1st June 2025. Code for this project can be found on
+    update, 17th July 2025. Code for this project can be found on
     <a target="_blank" href="https://github.com/lsnmst/carbon-violence"
       >GitHub</a
     >.

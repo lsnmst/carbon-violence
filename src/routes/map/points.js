@@ -1408,7 +1408,7 @@ export const points = {
             },
             "id": 82
         },
-                {
+        {
             "type": "Feature",
             "properties": {
                 "name": "Kajiado Rangelands Carbon Project",
@@ -1424,6 +1424,23 @@ export const points = {
                 "type": "Point"
             },
             "id": 83
+        },
+                {
+            "type": "Feature",
+            "properties": {
+                "name": "Programa Jurisdicional de REDD+ do Tocantins",
+                "area": "-",
+                "ID": "ART13",
+                "link": "https:\/\/art.apx.com\/mymodule\/reg\/TabDocuments.asp?r=111&ad=Prpt&act=update&type=PRO&aProj=pub&tablename=doc&id1=103"
+            },
+            "geometry": {
+                "coordinates": [
+                    -48.324407,
+                    -10.23641
+                ],
+                "type": "Point"
+            },
+            "id": 84
         }
     ]
 };

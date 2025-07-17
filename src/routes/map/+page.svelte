@@ -21,7 +21,7 @@
       <br />Total area (in hectares) occupied by projects where occurrences of
       physical, economic, psychological and epistemic violence have been
       exposed.<br /><br />An area equivalent to: <b>Tunisia</b><br /><br
-      /><br /><br /><br />Last update 1st June 2025
+      /><br /><br /><br />Last update 17th July 2025
     </div>
   </div>
   <div class="land-project-container">
