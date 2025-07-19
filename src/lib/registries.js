@@ -14,3 +14,12 @@ export const abuseNames = {
   no_recorded: "No reported",
   recorded: "Reported",
 };
+
+export const violenceTypes = {
+  Epistemic: "Epistemic Violence",
+  Sexual: "Sexual or Gender-based Violence",
+  Online: "Online or Tech-facilitated Violence",
+  Physical: "Violence against body-territory",
+  Psychological: "Psychological Violence",
+  Economic: "Economic Violence"
+};

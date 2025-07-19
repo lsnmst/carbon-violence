@@ -1,6 +1,7 @@
 <script>
   import { registryNames } from "$lib/registries.js";
   import { abuseNames } from "$lib/registries.js";
+  import { violenceTypes } from "$lib/registries.js";
   export let offset;
   export let q;
 
@@ -57,19 +58,29 @@
       >
     </div>
 
-    <!--     <div class="item">
+    <!--<div class="item">
       <span class="label">Casualties:</span>
       <span class="value">{offset.abuses}</span
       >
     </div>
- -->
+     -->
   </div>
 
   <div class="body">
     <h3>{@html highlight(offset.name, q)}</h3>
     <div class="desc">{@html highlight(offset.description, q)}</div>
 
-    <div class="" style="padding:0.5em; border: 2px var(--theme1) dotted; margin-top:0.8rem">
+    <div
+      class=""
+      style="padding:0.5em; border: 2px var(--theme1) dotted; margin-top:0.8rem"
+    >
+      {#if offset.violence}
+        <div class="violence">
+          <span class="label">Type(s) of Violence:</span>
+          <span class="value">{offset.violence}</span>
+        </div>
+      {/if}
+
       <div class="">{@html highlight(offset.abuse_descr, q)}</div>
 
       <div class="metacasu">
@@ -89,7 +100,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -148,5 +158,10 @@
     padding: 1rem;
     border: 1px solid var(--fg);
     word-wrap: break-word;
+  }
+
+  .violence {
+    color: var(--theme1) !important;
+    margin-bottom: 1em;
   }
 </style>

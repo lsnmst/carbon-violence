@@ -3,6 +3,7 @@
   import Project from "$lib/Project.svelte";
   import { registryNames } from "$lib/registries.js";
   import { abuseNames } from "$lib/registries.js";
+  import { violenceTypes } from "$lib/registries.js";
   import { page } from "$app/stores";
   import { base } from "$app/paths";
 
@@ -18,9 +19,11 @@
   let projectTypeFilter = data.projectTypeFilter;
   let registryFilter = data.registryFilter;
   let abusesFilter = data.abusesFilter;
+  let violenceFilter = data.violenceFilter;
   let sortOrder = data.sortOrder;
   let methodologies = data.methodologies;
   let abuses = data.abuses;
+  let violence = data.violence;
   let projectTypes = data.projectTypes;
   let form;
   let loading = false;
@@ -48,7 +51,8 @@
     projectTypeFilter = null;
     methodologyFilter = null;
     registryFilter = null;
-    abusesFilter = "Reported";
+    abusesFilter = null;
+    violenceFilter = null;
     sortKey = "total_credits";
     sortOrder = "desc";
   }
@@ -161,6 +165,24 @@
       </div>
 
       <div class="filter">
+        <label for="vio">Violence</label>
+        <select
+          name="violence"
+          id="vio"
+          bind:value={violenceFilter}
+          class="long-select"
+          on:change={subForm}
+        >
+          <option value={null}>All Violence Types</option>
+          {#each Object.keys(violenceTypes).sort() as v}
+            <option value={v}>
+              {violenceTypes[v]}
+            </option>
+          {/each}
+        </select>
+      </div>
+
+      <div class="filter">
         <label for="meth">Registry</label>
         <select
           name="registry"
@@ -178,7 +200,8 @@
         </select>
       </div>
 
-      <!--       <div class="filter">
+      <!--       
+      <div class="filter">
         <label for="meth">Methodologies</label>
         <select
           name="methodology"

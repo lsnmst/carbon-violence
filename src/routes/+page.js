@@ -2,6 +2,7 @@ let offsetData;
 let loaded = false;
 const methodologies = {};
 const abuses = {};
+const violence = {};
 const projectTypes = {};
 import { base } from '$app/paths';
 
@@ -21,10 +22,14 @@ async function loadData(fetch) {
     if (!p.abuse_descr) p.abuse_descr = 'No casualties reported to the archive. If you want to report an occourence, please follow the <a href="https://ee-eu.kobotoolbox.org/x/YzOtiWsK"> link</a>';
     if (!p.abuseuno_id) p.abuseuno_id = "-";
     if (!p.abuseuno_url) p.abuseuno_url = null;
+    if (!p.violence) p.violence = null;
 
 
     const pAbuses = p.abuses
       ? p.abuses.split(";").map((m) => m.trim())
+      : ["Unknown"];
+    const pViolence = p.violence
+      ? p.violence.split(";").map((m) => m.trim())
       : ["Unknown"];
     const pMethodologies = p.methodology
       ? p.methodology.split(";").map((m) => m.trim())
@@ -33,9 +38,13 @@ async function loadData(fetch) {
       ? p.project_type.split(";").map((m) => m.trim())
       : ["Unknown"];
 
-      
+
     pAbuses.forEach((w) => {
       abuses[w] = abuses[w] ? abuses[w] + 1 : 1;
+    });
+
+    pViolence.forEach((v) => {
+      violence[v] = violence[v] ? violence[v] + 1 : 1;
     });
 
     pMethodologies.forEach((m) => {
@@ -70,6 +79,8 @@ export async function load({ url, fetch }) {
   let registryFilter = url.searchParams.get("registry") || null;
 
   let abusesFilter = url.searchParams.get("abuses") || null;
+
+  let violenceFilter = url.searchParams.get("violence") || null;
 
 
   let q = url.searchParams.get("q") || "";
@@ -115,6 +126,11 @@ export async function load({ url, fetch }) {
       if (abusesFilter === null) return true;
 
       return p.abuses == abusesFilter;
+    })
+    .filter((p) => {
+      if (!violenceFilter) return true;
+      if (!p.violence) return false;
+      return p.violence.split(",").map((v) => v.trim()).includes(violenceFilter);
     });
 
   const offsetsSlice = offsets.slice(start, start + count);
@@ -130,8 +146,10 @@ export async function load({ url, fetch }) {
     projectTypeFilter,
     registryFilter,
     abusesFilter,
+    violenceFilter,
     methodologies,
     abuses,
+    violence,
     projectTypes,
     sortOrder,
   };
