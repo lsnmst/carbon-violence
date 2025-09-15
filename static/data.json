@@ -1,5 +1,26 @@
 [
     {
+        "name": "Reduced Emissions from Avoided Deforestation in the Multiple Use Zone of the Maya Biosphere Reserve in Guatemala (GuateCarbon)",
+        "location": "Petén, Guatemala",
+        "registry_id": "1384",
+        "registry_url": "https:\/\/registry.verra.org\/app\/projectDetail\/VCS\/1384",
+        "project_url": "",
+        "developer": "Consejo Nacional de Áreas Protegidas (CONAP)",
+        "project_type": "Agriculture Forestry and Other Land Use",
+        "description": "The Guatecarbon REDD+ project is a voluntary forest carbon project that is jointly managed by the local community forestry association of the Petén (ACOFOP) and the national council for protected areas of Guatemala (CONAP) The project activities take place within the Multiple-use Zone (MUZ), 797,868ha or 38%, of the total Maya Biosphere Reserve (MBR), which encompasses 2,080,298 ha. The project seeks to produce a net reduction in greenhouse house gas emissions from deforestation (RED) of approximately 41,579,156 tCO2e by strengthening and improving the existing model of co-management arrangements in the MUZ between local residents and the national government, and by improving zoning, land use planning and enforcement.",
+        "methodology": "VM0015",
+        "total_credits": 463239.0,
+        "status": "Late to verify",
+        "registry": "verra",
+        "abuses": "Reported",
+        "abuse_descr": "Despite the efforts in capacity building, the project participants have not received payments for carbon credits to date (10 April 2025)",
+        "abuseuno_id": "From promises to practice: Persistent challenges in safeguarding local rights in forest carbon market initiatives",
+        "abuseuno_url": "https:\/\/www.cabidigitallibrary.org\/doi\/full\/10.1079\/cabireviews.2025.0025",
+        "abusedue_id": " ",
+        "abusedue_url": " ",
+        "violence": "Economic"
+    },
+    {
         "name": "Programa Jurisdicional de REDD+ do Tocantins",
         "location": "Tocantins, Brazil",
         "registry_id": "ART103",
@@ -18,7 +39,7 @@
         "abuseuno_url": "https:\/\/coeqto.com.br\/wp-content\/uploads\/2025\/07\/Denuncia-ATA-CONAREDD-e-MPF-1.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Kajiado Rangelands Carbon Project",
@@ -39,7 +60,7 @@
         "abuseuno_url": "https:\/\/nation.africa\/kenya\/health\/no-carbon-credits-chaos-erupts-over-40-year-land-deal-in-kajiado-5025656",
         "abusedue_id": "Kajiado community fights back against carbon offset land grabs",
         "abusedue_url": "https:\/\/www.citizen.digital\/news\/kajiado-community-fights-back-against-carbon-offset-land-grabs-n362300",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Sofala Community Carbon Project (formerly the N'hambita Community Carbon Project)",
@@ -60,7 +81,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/15-years-of-redd-Legacy-Community-Carbon-Project-Nhambita-Mozambique",
         "abusedue_id": "Bank of evidence on false climate solutions",
         "abusedue_url": " https:\/\/www.foei.org\/wp-content\/uploads\/2023\/11\/Bank-of-evidence-climate-false-solutions_EN_Nov-2023.pdf",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project",
@@ -81,7 +102,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Carmen del Darién (CDD) REDD+ Project",
@@ -102,7 +123,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "UPPER TANA NAIROBI WATER FUND",
@@ -123,7 +144,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Drawa Rainforest Carbon Project",
@@ -144,7 +165,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Luangwa Community Forests Project",
@@ -165,7 +186,7 @@
         "abuseuno_url": "https:\/\/ejatlas.org\/conflict\/luangwa-community-forests-project-lcfp-redd",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Epistemic"
+        "violence": "Economic, Epistemic"
     },
     {
         "name": "Guajira I Wind Farm",
@@ -186,7 +207,7 @@
         "abuseuno_url": "https:\/\/www.mapafalsassoluciones.com\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Reforestation of Degraded Lands in Sierra Leone",
@@ -207,7 +228,7 @@
         "abuseuno_url": "https:\/\/www3.dfc.gov\/environment\/eia\/miro_forestry\/Documents\/DFC_ESIA_Comments.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "AFFORESTATION OF DEGRADED GRASSLANDS IN VICHADA, COLOMBIA",
@@ -228,7 +249,7 @@
         "abuseuno_url": "https:\/\/rutasdelconflicto.com\/especiales\/vichada\/tierra_hombres_sin_tierra.html",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Proyecto de compensación de emisiones Conservación del bosque Galilea-Amé",
@@ -249,7 +270,7 @@
         "abuseuno_url": "https:\/\/es.mongabay.com\/2024\/02\/proyecto-de-bonos-de-carbono-en-bosques-andinos-colombianos-bajo-la-niebla\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Batéké Carbon Sink (BaCaSi)",
@@ -270,7 +291,7 @@
         "abuseuno_url": "https:\/\/www.secours-catholique.org\/sites\/default\/files\/03-Documents/BACASI_EN-Web_0.pdf",
         "abusedue_id": "Republic of Congo: expansion of tree plantations linked to the carbon market - the underside of an opaque business and greenwashing",
         "abusedue_url": "https:\/\/www.wrm.org.uy\/sites\/default\/files\/bulletin-pdfs\/B272_EN.pdf",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Proyecto Ambiental de Protección Pachamama Cumbal",
@@ -291,7 +312,7 @@
         "abuseuno_url": "https:\/\//www.lasillavacia.com\/silla-nacional\/asi-fue-su-odisea-para-descubrir-el-negocio-ambiental-en-sus-paramos\/",
         "abusedue_id": "El proyecto de carbono suspendido que sigue transando bonos e incumple fallo judicial",
         "abusedue_url": "https:\/\/es.mongabay.com\/2024\/09\/proyecto-de-carbono-suspendido-sigue-transando-bonos-incumple-fallo-judicial\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "DEIYIABENA REDD+ NÜKAK BAKA",
@@ -312,7 +333,7 @@
         "abuseuno_url": "https:\/\/es.mongabay.com\/2022\/09\/indigenas-negocian-bonos-de-carbono-en-desventaja-y-sin-respaldo-estatal-en-colombia\/",
         "abusedue_id": "REDD+ projects in the Colombian Amazon: Social challenges and lack of transparency",
         "abusedue_url": "https:\/\/dv719tqmsuwvb.cloudfront.net\/documents\/REDD_rapport_2024_ENG.pdf",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "BAKA ROKARIRE ~IA TIR+~DITO",
@@ -333,7 +354,7 @@
         "abuseuno_url": "https:\/\/www.lasillavacia.com\/silla-amazonia\/primer-fallo-de-la-corte-sobre-bonos-de-carbono-acerca-a-indigenas-y-empresarios\/",
         "abusedue_id": "The grey carbon tangle in Pirá Paraná",
         "abusedue_url": "https:\/\/recursos.elclip.org\/carbono-gris\/timeline-en\/index.html",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Mitigation of GHG: Rubber based agro-forestry system for sustainable development and poverty reduction in Pakkading, Bolikhamsay Province, Lao PDR",
@@ -354,7 +375,7 @@
         "abuseuno_url": "https:\/\/landmatrix.org/documents\/172\/Land_Matrix_DN1_Offsetting_Carbon_digital_v2.pdf",
         "abusedue_id": "Land tenure lesson from Laos for forest carbon projects",
         "abusedue_url": "https:\/\/news.mongabay.com\/2024\/04\/land-tenure-lesson-from-laos-for-forest-carbon-projects-commentary\/",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "Afforestation in Eucalyptus and Acacia plantations for Burapha Agroforestry Co., Ltd.",
@@ -375,7 +396,7 @@
         "abuseuno_url": "https:\/\/landmatrix.org/documents\/172\/Land_Matrix_DN1_Offsetting_Carbon_digital_v2.pdf",
         "abusedue_id": "Land tenure lesson from Laos for forest carbon projects",
         "abusedue_url": "https:\/\/news.mongabay.com\/2024\/04\/land-tenure-lesson-from-laos-for-forest-carbon-projects-commentary\/",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "Ipixuna REDD+ Project",
@@ -396,7 +417,7 @@
         "abuseuno_url": "https:\/\/infoamazonia.org\/2024\/08\/02\/funai-recomenda-anulacao-de-contratos-de-michael-greene-com-indigenas\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "GKF AGROFORESTRY PROJECT IN TELANGANA",
@@ -1897,7 +1918,7 @@
         "abuseuno_url": "https:\/\/www.rainforestfoundationuk.org\/media.ashx\/protected-areas-in-the-congo-basin-failing-both-people-and-diversity-english.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Brascarbon Methane Recovery Project BCA-BRA-20",
@@ -2298,7 +2319,7 @@
         "abuseuno_url": "https:\/\/afsafrica.org\/wp-content\/uploads\/2025\/03\/misa-carbon-report-short-eng.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Peruvian Amazon Conservation Project",
@@ -3359,7 +3380,7 @@
         "abuseuno_url": "https:\/\/ojoioeotrigo.com.br\/2024\/07\/de-quem-e-o-ar\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "Reducci\u00f3n de la deforestaci\u00f3n y degradaci\u00f3n en el parque nacional Bahuaja sonene en la regi\u00f3n Puno - Per\u00fa",
@@ -3980,7 +4001,7 @@
         "abuseuno_url": "https:\/\/sarawakreport.org\/2024\/04\/samlings-blueprint-carbon-venture-raises-red-flags-for-sarawak-sr-investigation\/",
         "abusedue_id": "Marudi Indigenous communities oppose Samling’s carbon project in Sarawak, Malaysia",
         "abusedue_url": "https:\/\/reddmonitor.substack.com\/p\/marudi-indigenous-communities-oppose",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "URSTAMM GROUPED PROJECT IFM SWITZERLAND & PILOT PROJECT KELLERAMT",
@@ -4481,7 +4502,7 @@
         "abuseuno_url": "https:\/\/globalforestcoalition.org\/hsj-colombia-report\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Electric Forklifts and Trucks Nigeria",
@@ -4982,7 +5003,7 @@
         "abuseuno_url": "https:\/\/afsafrica.org\/wp-content\/uploads\/2025\/03\/misa-carbon-report-short-eng.pdf ",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Yvoty REDD+ Project: Forest Conservation in Eastern Paraguay",
@@ -7943,7 +7964,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/sites\/default\/files\/bulletin-pdfs\/B272_EN.pdf",
         "abusedue_id": "Plantation de la culture des #Eucalyptus à Leconi: une grogne populaire se pointerait à l'horizon",
         "abusedue_url": "https:\/\/www.facebook.com\/E.MediaGabon\/videos\/plantation-de-la-culture-des-eucalyptus-%C3%A0-leconi-une-grogne-populaire-se-pointer\/1209864480013251\/?_rdr",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Amaz\u00f4nidas REDD+ AUDD Grouped Project",
@@ -12284,7 +12305,7 @@
         "abuseuno_url": "https:\/\/www.heks.ch\/sites\/default\/files\/documents\/2024-05\/HEKS_Silnorf_Port_Loko.pdf",
         "abusedue_id": "‘Saviour of carbon markets’ faces questions over African land rights",
         "abusedue_url": "https:\/\/www.source-material.org\/carbon-done-right-kevin-godlington-offsetting-sierra-leonecontroversial-land-deal-sierra-leone\/",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Subei Sustainable Grassland Management Project",
@@ -20205,7 +20226,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/bulletin-articles\/redd-and-the-green-economy-exacerbate-oppression-and-deforestation-in-para-brazil",
         "abusedue_id": "Carbon cowboys’ ride into an Amazonian storm",
         "abusedue_url": "https:\/\/sumauma.com\/en\/caubois-do-carbono-loteiam-a-amazonia\/",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Adjusted Water Management in Rice Cultivation In Macheng City",
@@ -26246,7 +26267,7 @@
         "abuseuno_url": "https:\/\/alertacontradesertosverdes.org\/wp-content\/uploads\/2023\/04\/O-que-voce-precisa-saber-sobre-Suzano-formato-pagina-unica.pdf",
         "abusedue_id": "Suzano’s ongoing disrespect for local communities and their traditional land",
         "abusedue_url": "https:\/\/environmentalpaper.org\/2023\/12\/suzanos-ongoing-disrespect-for-local-communities-and-their-traditional-land\/",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "CIBO Initiative for Scaling Regenerative Agriculture",
@@ -26407,7 +26428,7 @@
         "abuseuno_url": "https:\/\/sumauma.com\/en\/caubois-do-carbono-como-um-empresario-britanico-um-pecuarista-paraense-e-um-ex-pm-de-sao-paulo-se-tornaram-protagonistas-de-projetos-abusivos-na-amazonia",
         "abusedue_id": "Faroeste Carbono",
         "abusedue_url": "https:\/\/www.youtube.com\/watch?v=NTeKCOGMepw",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Developing a voluntary carbon market project for Pench Tiger Reserve in India",
@@ -28848,7 +28869,7 @@
         "abuseuno_url": "https:\/\/environmentalpaper.org\/wp-content\/uploads\/2022\/10\/2022-09-23-Paracel-Concerns-Joint-0Briefing.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "Cenzcouh Water Management with Rice Cultivation",
@@ -33429,7 +33450,7 @@
         "abuseuno_url": "",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Adjusted Water Management in Rice Cultivation In Jiangxia District",
@@ -33590,7 +33611,7 @@
         "abuseuno_url": "https:\/\/www.washingtonpost.com\/climate-environment\/2024\/08\/24\/carbon-credits-cook-stoves-africa\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Boomitra Carbon Farming South of the Vindhyas",
@@ -33711,7 +33732,7 @@
         "abuseuno_url": "https:\/\/www.theguardian.com\/environment\/2011\/sep\/22\/uganda-farmer-land-gave-me-everything",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Muyuan WJZ AWMS GHG Mitigation Project in Henan Province",
@@ -37812,7 +37833,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/sites\/default\/files\/2022-11\/REDD_Portel_PT.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "COMACO Landscape Management Project - West",
@@ -38894,7 +38915,7 @@
         "abuseuno_url": "https:\/\/www.forestpeoples.org\/en\/press-release\/2023\/extermination-systematic-violation-sikuani-indigenous-people-barrulia",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Facilitating the transition to low emitting electric auto-rickshaws in India",
@@ -42878,7 +42899,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/profile\/Andrea-Babon\/publication\/375864644_THE_CONSTRUCTION_OF_VOLUNTARY_FOREST_CARBON_PROJECTS_IN_PAPUA_NEW_GUINEA/links/65cbfa8734bbff5ba70efee3/The-construction-of-voluntary-forest-carbon-projects-in-Papua-New-Guinea.pdf",
         "abusedue_id": "Carbon Colonialism: Can carbon credits really save the planet?",
         "abusedue_url": "https:\/\/www.abc.net.au\/news\/2023-02-13\/carbon-colonialism/101968870",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Guizhou Panjiang Low Concentration Coal Mine Methane Power Generation Project Phase 2",
@@ -52820,7 +52841,7 @@
         "abuseuno_url": "https:\/\/www.servindi.org\/actualidad-noticias\/09\/07\/2024\/emiten-el-primer-fallo-por-bonos-de-carbono",
         "abusedue_id": "Bonos de carbono, un mercado ambiental que amenaza a los pueblos indígenas",
         "abusedue_url": "https:\/\/www.dejusticia.org\/litigation\/bonos-de-carbono-y-gobierno-indigena\/",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Chudu Afforestation Project",
@@ -58681,7 +58702,7 @@
         "abuseuno_url": "https:\/\/www.reuters.com\/article\/idUSL8N34C5GA\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "VTRM Renewable Energy",
@@ -59322,7 +59343,7 @@
         "abuseuno_url": "https:\/\/www.oaklandinstitute.org\/sites\/oaklandinstitute.org\/files\/Report_DarkerSideofGreen_hirez.pdf",
         "abusedue_id": "Evicted for carbon credits. Norway, Sweden, and Finland displace Ugandan farmers for carbon trading",
         "abusedue_url": "https:\/\/www.oaklandinstitute.org\/evicted-carbon-credits-green-resources",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Lahendong Unit 5 & Unit 6 Geothermal Project",
@@ -59863,7 +59884,7 @@
         "abuseuno_url": "https:\/\/www.hrw.org\/sites\/default\/files\/media_2024\/02\/cambodia0224web_1.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic, Physical"
+        "violence": "Epistemic, Physical"
     },
     {
         "name": "Sarbari II hydro power project by DSL Hydrowatt Limited in Kullu, Himachal Pradesh",
@@ -60064,7 +60085,7 @@
         "abuseuno_url": "https:\/\/www.youtube.com\/watch?v=1r7KRQfMOMM",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Lee County Waste To Energy Facility 2007 Capital Expansion Project VCU",
@@ -61425,7 +61446,7 @@
         "abuseuno_url": "https:\/\/foeasiapacific.org\/2021\/08\/30\/large-scale-deforestation-at-korea-forest-services-redd-site-in-cambodia\/",
         "abusedue_id": "Offsetting projects with high forest loss still on the market",
         "abusedue_url": "https:\/\/unearthed.greenpeace.org\/2023\/10\/05\/verra-carbon-offsetting-cambodia\/",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Wind Power Project at Anthiyur, Tamil Nadu",
@@ -64906,7 +64927,7 @@
         "abuseuno_url": "https:\/\/news.mongabay.com\/2024\/05\/top-brands-buy-amazon-carbon-credits-from-suspected-timber-laundering-scam\/",
         "abusedue_id": "Empresa ligada à Shell é acusada de violar direitos indígenas em contratos de créditos de carbono",
         "abusedue_url": "https:\/\/brasil.mongabay.com\/2023\/10\/empresa-ligada-a-shell-e-acusada-de-violar-direitos-indigenas-em-contratos-de-creditos-de-carbono\/",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "Zhangbei Manjing Windfarm Project - CER Conversion",
@@ -65007,7 +65028,7 @@
         "abuseuno_url": "https:\/\/news.mongabay.com\/2024\/07\/in-cambodia-indigenous-villagers-lose-forest-land-amid-carbon-offset-project\/",
         "abusedue_id": "Briefing paper on REDD+, Rights and Indigenous Peoples: Lessons from REDD+ Initiatives in Asia",
         "abusedue_url": "https:\/\/iwgia.org\/images\/publications\/0655_Doha_briefing_Final_Artork.pdf ",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "AAC Block Manufacturing Using Energy Efficient Technology by JKLCL",
@@ -65588,7 +65609,7 @@
         "abuseuno_url": "https:\/\/www.mapafalsassoluciones.com\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "EcoPlanet Bamboo Central America - Reforestation Project",
@@ -65729,8 +65750,7 @@
         "abuseuno_url": "https:\/\/thesis.unipd.it\/retrieve\/b175aa10-ed2a-4425-b45e-5c59dd394c37\/LEME_RAFAEL.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
-        
+        "violence": "Physical"
     },
     {
         "name": "Reduced Emissions from Deforestation and Degradation in Community Forests \u2013 Oddar Meanchey, Cambodia",
@@ -66511,7 +66531,7 @@
         "abuseuno_url": "https:\/\/khrc.or.ke\/wp-content\/uploads\/2023\/11\/KHRC-Publication-Offsetting-human-rights-Sexual-abuse-and-harassment-at-the-Kasigau-Corridor-REDD-Project-in-Kenya.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical, Sexual"
+        "violence": "Physical, Sexual"
     },
     {
         "name": "Grid Connected Wind Power Project by M\/s Giriraj Enterprises in Madhya Pradesh",
@@ -67012,7 +67032,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/sites\/default\/files\/2022-11\/REDD_Portel_PT.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "52.50 MW Wind energy farm at Mokla Rajasthan by HZL",
@@ -68075,7 +68095,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "African Improved Cooking Stoves Grouped Project",
@@ -70619,7 +70639,7 @@
         "abuseuno_url": "https:\/\/khrc.or.ke\/wp-content\/uploads\/2023\/11\/KHRC-Publication-Offsetting-human-rights-Sexual-abuse-and-harassment-at-the-Kasigau-Corridor-REDD-Project-in-Kenya.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical, Sexual"
+        "violence": "Physical, Sexual"
     },
     {
         "name": "Recast Energy Louisville Fuel Switch from Coal to Biomass for Thermal Energy",
@@ -70960,7 +70980,7 @@
         "abuseuno_url": "https:\/\/www.researchgate.net\/publication\/375867131_Assessing-transparency-and-integrity-of-benefit-sharing-arrangements-related-to-voluntary-carbon-market-projects",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Yunnan Tengzhong New Energy Technology Co. Ltd. Biomass Heating System Retrofitting and Biomass Collection Station Project",
@@ -71181,7 +71201,7 @@
         "abuseuno_url": "https:\/\/oimpacto.com.br\/2023\/10\/05\/empresas-sao-acusadas-de-grilagem-de-terras-em-esquema-para-venda-de-credito-de-carbono\/",
         "abusedue_id": "Amazon people claim promises of help in £40million scheme haven't materialised",
         "abusedue_url": "https:\/\/www.mirror.co.uk\/news\/world-news\/amazon-people-had-no-help-31271025",
-        "violence":"Epistemic, Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "Protection of the Bolivian Amazon Forest",
@@ -71683,7 +71703,7 @@
         "abuseuno_url": "https:\/\/www.bloomberg.com\/news\/articles\/2024-04-30\/world-s-largest-forestry-offsets-project-has-license-revoked",
         "abusedue_id": "Fighting for a Share of a $1 Trillion Market in Borneo’s Jungle",
         "abusedue_url": "https:\/\/www.bloomberg.com\/features\/2025-indonesia-jungle-carbon-offset-market\/",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "Montanitas Hydroelectric Project",
@@ -72566,7 +72586,7 @@
         "abuseuno_url": "https:\/\/www.forestpeoples.org\/en\/press-release\/kichwa-take-Peru-state-PNAZ-court",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     },
     {
         "name": "KARIBA REDD+ PROJECT",
@@ -72587,7 +72607,7 @@
         "abuseuno_url": "https:\/\/archive.is\/HdxuI",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "Grouped Connect Solar PV Power Generation Project in China",
@@ -72748,7 +72768,7 @@
         "abuseuno_url": "https:\/\/www.theguardian.com\/environment\/2023\/jan\/18\/forest-communities-alto-mayo-peru-carbon-offsetting-aoe",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Suman Sarwari Hydro Electric Project.",
@@ -73089,7 +73109,7 @@
         "abuseuno_url": "https:\/\/thesis.unipd.it\/retrieve\/b175aa10-ed2a-4425-b45e-5c59dd394c37\/LEME_RAFAEL.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "Clinton Landfill Gas Collection and Combustion Project",
@@ -73290,7 +73310,7 @@
         "abuseuno_url": "https:\/\/www.rosalux.de\/en\/news\/id\//52733\/the-big-business-with-greenhouse-gas-emissions",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "YUCE Hydroelectric Power Plant",
@@ -73589,9 +73609,9 @@
         "abuse_descr": "After harvesting the most valuable timber from the 15 concessions — covering an area the size of Belgium — Portuguese-owned Norsudtimber is now eyeing European investment in carbon credit schemes it will operate from the former logging sites. DRC law requires that proponents of conservation concessions formally engage with everyone involved before contracts are signed. In December 2021, company representatives provided the final tranche of compensation for their logging activities — roofing and other materials — and had local chiefs sign an agreement for the concessions to issue carbon credits. In the document, KFBS agreed to pay $3,500 monthly to each of the communities and 8% of future carbon sales, as well as to keep them informed of carbon credit price fluctuations. Perez Bolengelaka was at the meeting as representative of civil society in Isangi. He says KFBS did not discuss any financial and technical plans, or explain the activities of the project, beyond a general reference to nature conservation. There was no discussion of the alternatives they would provide to people surviving on itinerant agriculture and artisanal logging, he says.",
         "abuseuno_id": "Revealed: Timber giant quietly converts Congo logging sites to carbon schemes",
         "abuseuno_url": "https:\/\/news.mongabay.com\/2022\/03\/revealed-timber-giant-quietly-converts-congo-logging-sites-to-carbon-schemes\/",
-        "abusedue_id": "",
-        "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "abusedue_id": "A prominent US family has been cashing in on DRC carbon credits while local communities decry unmet promises",
+        "abusedue_url": "https:\/\/globalvoices.org\/2025\/09\/10\/a-prominent-us-family-has-been-cashing-in-on-drc-carbon-credits-while-local-communities-decry-unmet-promises\/",
+        "violence": "Economic, Physical"
     },
     {
         "name": "RFC Grouped Wind Projects Phase I",
@@ -73852,7 +73872,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/bulletin-articles\/envira-redd-project-in-acre-brazil-gold-certificate-from-carbon-certifiers-for-empty-promises",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Economic, Physical"
+        "violence": "Economic, Physical"
     },
     {
         "name": "Torlar 14.834 MWe Hydroelectric power plant",
@@ -74073,7 +74093,7 @@
         "abuseuno_url": "https:\/\/reporterbrasil.org.br\/2024\/02\/uber-and-audi-used-carbon-credits-generated-in-farm-that-employed-slave-labor\/",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Greater Lebanon Refuse Authority Landfill Gas Collection and Combustion Project",
@@ -77714,7 +77734,7 @@
         "abuseuno_url": "https:\/\/www.lesoir.be\/396387\/article\/2021-09-22\/douze-millions-darbres-au-congo-le-signal-fort-de-colruyt",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "GEAAI Biomass Power Plant (Myanmar)",
@@ -109515,7 +109535,7 @@
         "abuseuno_url": "https:\/\/www.wrm.org.uy\/\/wp-content\/uploads\/2014\/12\/REDD-A-Collection-of-Conflict_Contradictions_Lies_expanded.pdf",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "ArBolivia- Phase II ",
@@ -120136,7 +120156,7 @@
         "abuseuno_url": "https:\/\/www.iwgia.org\/en\/news\/5342-indigenous-communities-kenya-court-proceedings-lake-turkana-wind-project.html",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "Berke Regulator and Hydro Electric Power Plant, Turkey",
@@ -138917,7 +138937,7 @@
         "abuseuno_url": "https:\/\/www.theguardian.com\/environment\/2023\/nov\/13\/carbon-credits-at-risk-of-link-to-uyghur-forced-labour-bought-by-bp-and-spotify",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Physical"
+        "violence": "Physical"
     },
     {
         "name": "G\u00fcvercin Hydroelectric Power Plant",
@@ -163998,7 +164018,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Ejido Conoachi y Anexos",
@@ -164059,7 +164079,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Ejido Forestal Chavarria Nuevo",
@@ -164200,7 +164220,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Ejido La Selva",
@@ -164261,7 +164281,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "EJIDO LLANO GRANDE",
@@ -164542,7 +164562,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Ejido sierra de Agua",
@@ -164563,7 +164583,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "Ejido Tambores de Abajo y Anexos",
@@ -170584,7 +170604,7 @@
         "abuseuno_url": "https:\/\/www.elfinanciero.com.mx\/bloomberg-businessweek\/2022\/06\/30\/trabajaron-dos-anos-y-bp-solo-les-pago-40-dolares\/",
         "abusedue_id": "BP exploited Mexican communities hoping to benefit from carbon credits",
         "abusedue_url": "https:\/\/news.mongabay.com\/2022\/07\/bp-exploited-mexican-communities-hoping-to-benefit-from-carbon-credits-report\/",
-        "violence":"Economic"
+        "violence": "Economic"
     },
     {
         "name": "PREDIO RUSTICO DENOMINADO ZALEAS",
@@ -175425,6 +175445,6 @@
         "abuseuno_url": "https:\/\/www.cseindia.org\/discredited-the-voluntary-carbon-market-in-india-11885",
         "abusedue_id": "",
         "abusedue_url": "",
-        "violence":"Epistemic"
+        "violence": "Epistemic"
     }
 ]

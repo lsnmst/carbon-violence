@@ -1385,7 +1385,7 @@ export const points = {
                 "coordinates": [
                     -61.455800269791055,
                     -11.031290452314366
-                    
+
                 ],
                 "type": "Point"
             },
@@ -1425,13 +1425,13 @@ export const points = {
             },
             "id": 83
         },
-                {
+        {
             "type": "Feature",
             "properties": {
                 "name": "Programa Jurisdicional de REDD+ do Tocantins",
                 "area": "-",
                 "ID": "ART13",
-                "link": "https:\/\/art.apx.com\/mymodule\/reg\/TabDocuments.asp?r=111&ad=Prpt&act=update&type=PRO&aProj=pub&tablename=doc&id1=103"
+                "link": "https://art.apx.com/mymodule/reg/TabDocuments.asp?r=111&ad=Prpt&act=update&type=PRO&aProj=pub&tablename=doc&id1=103"
             },
             "geometry": {
                 "coordinates": [
@@ -1441,6 +1441,23 @@ export const points = {
                 "type": "Point"
             },
             "id": 84
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Reduced Emissions from Avoided Deforestation in the Multiple Use Zone of the Maya Biosphere Reserve in Guatemala (GuateCarbon)",
+                "area": 463239,
+                "ID": 1384,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/1384"
+            },
+            "geometry": {
+                "coordinates": [
+                    -89.62326743397301,
+                    17.21758949210428
+                ],
+                "type": "Point"
+            },
+            "id": 85
         }
     ]
 };
