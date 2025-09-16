@@ -1441,23 +1441,6 @@ export const points = {
                 "type": "Point"
             },
             "id": 84
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Reduced Emissions from Avoided Deforestation in the Multiple Use Zone of the Maya Biosphere Reserve in Guatemala (GuateCarbon)",
-                "area": 463239,
-                "ID": 1384,
-                "link": "https://registry.verra.org/app/projectDetail/VCS/1384"
-            },
-            "geometry": {
-                "coordinates": [
-                    -89.62326743397301,
-                    17.21758949210428
-                ],
-                "type": "Point"
-            },
-            "id": 85
         }
     ]
 };

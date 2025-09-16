@@ -17,16 +17,16 @@
 <div class="map-container">
   <div class="land-project-container">
     <div class="help">
-      <div class="number">16,388,349</div>
+      <div class="number">15,925,110</div>
       <br />Total area (in hectares) occupied by projects where occurrences of
       physical, economic, psychological and epistemic violence have been
-      exposed.<br /><br />An area equivalent to: <b>Tunisia</b><br /><br
-      /><br /><br /><br />Last update 15th September 2025
+      exposed.<br /><br />An area equivalent to: <b>Tunisia</b><br /><br /><br
+      /><br /><br />Last update 15th September 2025
     </div>
   </div>
   <div class="land-project-container">
     <div class="help">
-      <div class="number">29 out of 29</div>
+      <div class="number">28 out of 28</div>
       <br />Number of Global South countries in relation to the total number of
       countries where violence was exposed.<br />Of the total number of projects
       investigated, 25% are exclusively managed by organisations and companies
