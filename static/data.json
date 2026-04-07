@@ -33646,12 +33646,13 @@
         "total_credits": 197050.0,
         "status": "Registered",
         "registry": "verra",
-        "abuses": "Not reported",
-        "abuse_descr": "",
-        "abuseuno_id": "",
-        "abuseuno_url": "",
+        "abuses": "Reported",
+        "abuse_descr": "Swedwatch’s findings reveal that, while C-Quest sold carbon credits sourced from its Zimbabwe cookstove projects to high-emitting corporations, community members and local authorities were entirely unaware of the carbon trading scheme and received no share of the revenues from these transactions. The interviews with community members confirmed that C-Quest failed to conduct meaningful consultations and obtain informed consent from the families to sell carbon credits. No efforts were made to negotiate a fair and transparent benefit-sharing agreement with the community either, and they shared frustrations about the lack of information about the financial details of the project, which they thought was a donation.",
+        "abuseuno_id": "Shortsighted and unjust carbon projects: A Zimbabwe case study",
+        "abuseuno_url": "https:\/\/swedwatch.org\/themes\/shortsighted-and-unjust-carbon-projects-a-zimbabwe-case-study\/",
         "abusedue_id": "",
-        "abusedue_url": ""
+        "abusedue_url": "",
+        "violence": "Economic"
     },
     {
         "name": "Happy Kitchens in Villages of Gujarat and Rajasthan",
@@ -42092,12 +42093,13 @@
         "total_credits": 1249487.0,
         "status": "Registered",
         "registry": "verra",
-        "abuses": "Not reported",
-        "abuse_descr": "",
-        "abuseuno_id": "",
-        "abuseuno_url": "",
+        "abuses": "Reported",
+        "abuse_descr": "Swedwatch’s findings reveal that, while C-Quest sold carbon credits sourced from its Zimbabwe cookstove projects to high-emitting corporations, community members and local authorities were entirely unaware of the carbon trading scheme and received no share of the revenues from these transactions. The interviews with community members confirmed that C-Quest failed to conduct meaningful consultations and obtain informed consent from the families to sell carbon credits. No efforts were made to negotiate a fair and transparent benefit-sharing agreement with the community either, and they shared frustrations about the lack of information about the financial details of the project, which they thought was a donation.",
+        "abuseuno_id": "Shortsighted and unjust carbon projects: A Zimbabwe case study",
+        "abuseuno_url": "https:\/\/swedwatch.org\/themes\/shortsighted-and-unjust-carbon-projects-a-zimbabwe-case-study\/",
         "abusedue_id": "",
-        "abusedue_url": ""
+        "abusedue_url": "",
+        "violence": "Economic"
     },
     {
         "name": "Installation of high efficiency wood burning cookstoves in Malawi",
@@ -70553,12 +70555,12 @@
         "status": "Registered",
         "registry": "verra",
         "abuses": "Reported",
-        "abuse_descr": "The territorial analysis of the REDD+ projects shows that the degree of integration of local communities into project management varies greatly. In Makira, local communities are excluded from the management of the protected area. The management rules theoretically negotiated with the population are in reality set by the project manager through a very restrictive interpretation of the management agreements. The economic activities deployed do not constitute real compensation for the households that bear the cost of conservation, partly because the means deployed are inadequate, and partly because the money goes elsewhere.",
+        "abuse_descr": "The territorial analysis of the REDD+ projects shows that the degree of integration of local communities into project management varies greatly. In Makira, local communities are excluded from the management of the protected area. The management rules theoretically negotiated with the population are in reality set by the project manager through a very restrictive interpretation of the management agreements. The economic activities deployed do not constitute real compensation for the households that bear the cost of conservation, partly because the means deployed are inadequate, and partly because the money goes elsewhere. Fading Cultures Magazine report how some families became the eyes and ears of conservation authorities, reporting on neighbours who cut timber or farmed as they always had. Trust eroded. Quiet divisions formed. Promised benefits rarely arrived in ways that matched the scale of restriction. What was described as shared protection began to feel like uneven surveillance. The forest remained. The cost was absorbed within the community.",
         "abuseuno_id": "WHAT HAPPENED Newsletter n°216 (FR). LE MARCHÉ CARBONE EST-IL UNE RÉPONSE AU CHANGEMENT CLIMATIQUE ?",
         "abuseuno_url": "https:\/\/terresmalgaches.info\/newsletter\/article\/newsletter-no216-fr-le-marche-carbone-est-il-une-reponse-au-changement?lang=fr",
         "abusedue_id": "Le mécanisme REDD+ et les projets pilotes à Madagascar : d’un idéal incitatif à la réalité des dispositifs de gestion",
         "abusedue_url": "https:\/\/shs.cairn.info\/revue-natures-sciences-societes-2018-3-page-308?lang=fr",
-        "violence": "Economic"
+        "violence": "Epistemic, Economic"
     },
     {
         "name": "Monte Rosa Bagasse Cogeneration - CER Conversion",

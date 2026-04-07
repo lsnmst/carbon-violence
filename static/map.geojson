@@ -4,6 +4,40 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Installation of high efficiency wood burning cookstoves in Zimbabwe",
+                "area": 0,
+                "ID": 2341,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/2341"
+            },
+            "geometry": {
+                "coordinates": [
+                    -19.90839865171527,
+                    32.84126532487723
+                ],
+                "type": "Point"
+            },
+            "id": 83
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Installation of high efficiency wood burning cookstoves in Zimbabwe - Project 2",
+                "area": 0,
+                "ID": 2890,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/2890"
+            },
+            "geometry": {
+                "coordinates": [
+                    32.8533021500573,
+                    -19.790496457318667
+                ],
+                "type": "Point"
+            },
+            "id": 82
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Kajiado Rangelands Carbon Project",
                 "area": 1000000,
                 "ID": 4714,

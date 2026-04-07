@@ -1441,6 +1441,40 @@ export const points = {
                 "type": "Point"
             },
             "id": 84
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Installation of high efficiency wood burning cookstoves in Zimbabwe",
+                "area": 0,
+                "ID": 2341,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/2341"
+            },
+            "geometry": {
+                "coordinates": [
+                    32.84126532487723,
+                    -19.90839865171527
+                ],
+                "type": "Point"
+            },
+            "id": 85
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Installation of high efficiency wood burning cookstoves in Zimbabwe - Project 2",
+                "area": 0,
+                "ID": 2890,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/2890"
+            },
+            "geometry": {
+                "coordinates": [
+                    32.8533021500573,
+                    -19.790496457318667
+                ],
+                "type": "Point"
+            },
+            "id": 86
         }
     ]
 };
