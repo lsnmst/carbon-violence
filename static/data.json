@@ -24538,15 +24538,16 @@
         "project_type": "Agriculture Forestry and Other Land Use",
         "description": "The Lomphat Wildlife Sanctuary (LWS) belongs to Eastern Plain Landscape (EPL) was established in 1993 by the Cambodia royal government, covering an area 250,000 hectares within the provinces of Ratanakiri (accounting for approximately 80%) and Mondulkiri (20% of the area). Most of Lomphat land areas are dominated by dry deciduous forest and followed by semi-evergreen and evergreen forest, grassland, traditional crops, ponds, streams and Repos River that are reliable for thousands of endangered, vulnerable, and rare species. LWS has also been marked in recent years with significant impacts of human activities including: deforestation, mining, land conversion for agriculture, forest encroachment, new road construction, hunting and trapping, resettlement and increasing population. To ensure the effective protection of the EPL-LWS, conservation actions need to promote the significance of forests while helping to address and support sustainable livelihood development of the local population.\r\nFrom 2010 to 2018, the loss of forest cover in LWS has increased by 16.4% or 41,659.30 hectares, resulting in the loss of biodiversity and greater pressures on endangered species. BirdLife International Program in Cambodia (BirdLife) in close collaboration with the Ministry of Environment (MoE) and NGO partners, has supported and lead conservation activities in the region with the focus on capacity development for law enforcement, forest monitoring, preservation of endangered species and facilitating local community participation. In 2018, the project expanded its strategic approach for LWS to incorporate carbon finance, specifically REDD+, which have been defined as the most appropriate mechanism for addressing financial sustainability, refining activities for natural resource management and providing key benefits for community development and livelihoods. This initiative is also contributes to the 3rd strategic direction of Cambodia's Climate Change Strategic Plan (CCCSP).",
         "methodology": "VM0015",
-        "total_credits": 0.0,
+        "total_credits": 134730,
         "status": "Under validation",
         "registry": "verra",
-        "abuses": "Not reported",
-        "abuse_descr": "",
-        "abuseuno_id": "",
-        "abuseuno_url": "",
+        "abuses": "Reported",
+        "abuse_descr": "More than half of the households in partner villages said they did not consent to the project and were not well informed about it. Most villagers were unable to attend because they had to farm, or they were not invited at all. Members of eight of Roya Leu community's Indigenous Bunong households, who live in Memom village, said they were not properly informed or asked to give their consent regarding the REDD+-funded reforestation project. Two described residents being blocked from attending REDD+ meetings. An Indigenous villager states officials warned that opposing the REDD+ project would bear consequences. Villagers were told that if they cleared areas on their farmland they would be arrested and face jail time or fines, he said.",
+        "abuseuno_id": "What Consultation Looks Like on a Cambodian Carbon Offset Project",
+        "abuseuno_url": "https:\/\/thediplomat.com\/2026\/04\/what-consultation-looks-like-on-a-cambodian-carbon-offset-project\/",
         "abusedue_id": "",
-        "abusedue_url": ""
+        "abusedue_url": "",
+        "violence": "Epistemic"
     },
     {
         "name": "Fangzheng-1 Water Management with Rice Cultivation",

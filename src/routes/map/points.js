@@ -1475,6 +1475,22 @@ export const points = {
                 "type": "Point"
             },
             "id": 86
+        }, {
+            "type": "Feature",
+            "properties": {
+                "name": "Lomphat Wildlife Sanctuary REDD+ Project",
+                "area": 134730,
+                "ID": 3434,
+                "link": "https://registry.verra.org/app/projectDetail/VCS/3434"
+            },
+            "geometry": {
+                "coordinates": [
+                    107.02859231485212,
+                    13.324902229691244
+                ],
+                "type": "Point"
+            },
+            "id": 86
         }
     ]
 };
