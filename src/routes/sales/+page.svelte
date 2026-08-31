@@ -77,7 +77,7 @@
       individual who has bought an offset from Verra registry, date of the sale,
       quantity of offsets purchased and from which project. <br /><br /><i
         >Berkeley Carbon Trading Project</i
-      > database, version 1 June 2025
+      > database, version 1 July 2026
     </div>
     <div class="filter">
       <input
